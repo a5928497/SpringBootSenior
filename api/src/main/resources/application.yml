@@ -10,3 +10,6 @@ spring:
           initial-size: 5    #初始化连接数
           max-total: 10      #最大连接数
           max-wait-millis: 200  #等待连接最长的超时时间
+#mybatis:
+#  configuration:
+#    map-underscore-to-camel-case: true
